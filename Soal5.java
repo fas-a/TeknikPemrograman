@@ -11,17 +11,11 @@ public class Soal5 {
         plat3 = sc.next();
         plat4 = sc.next();
         sc.close();
-
         plat = plat1 + plat2 + plat3 + plat4;
         platcombine = Long.parseLong(plat);
-
-        // platcombine = (platcombine - 999999);
-        // System.out.println(platcombine);
-        // platcombine = platcombine % 5;
-        // System.out.println(platcombine);
-
+        platcombine = (platcombine - 999999);
+        platcombine = platcombine % 5;
         if(platcombine == 0)System.out.println("berhenti");
         else System.out.println("jalan");
     }
-
 }

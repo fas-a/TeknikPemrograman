@@ -1,29 +1,16 @@
 import java.util.*;
-
 public class Soal2 {
-
     public void scanf() {
-        
     }
 	public static void main(String[] args) {
 		String data[] = new String[3], dataangka[] = new String[3];
-        // int angka[] = new int[3];
-        
         Scanner sc = new Scanner(System.in);
-		
         for(int i = 0; i < 3; i++){
             data[i] = sc.nextLine();
-
 		    dataangka[i] = data[i].split(" ")[1];
             data[i] = data[i].split(" ")[0];
-            // System.out.println(data[i]);
-            // angka[i] = sc.nextInt();
-            // System.out.println(angka[i]);
-
         }
-		
-		sc.close();
-		
+		sc.close();	
 		System.out.println("================================");
         for(int i = 0; i < 3; i++){
             int panjangkata = data[i].length();
@@ -34,5 +21,4 @@ public class Soal2 {
         }
         System.out.println("================================");
 	}
-
 }

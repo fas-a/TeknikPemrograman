@@ -14,6 +14,6 @@ public class Soal4 {
         else gajiakhir = (gajipokok - (15 * (minitem - item) * hargaitem));
 
         System.out.println(gajiakhir);
-        //gajiakhir = (item > 80)? (gajipokok + (0.35 * item)):((item >= 40)?(gajipokok + (0.25 * item)):((item >= 15)?((gajipokok + (0.10 * item))):((gajipokok - (0.15 * item)))));
+        
     }
 }
