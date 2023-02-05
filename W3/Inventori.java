@@ -11,18 +11,9 @@ public class Inventori {
 		System.out.println(barangs[1].nama_barang + "(" + barangs[1].getStok() + ")");
 	}
 	
-//	void addStock(Barang benda, int add) {
-//		benda.getStok() += add;
-//	}
-	
 	void pengadaan() {
 		initBarang();
-		//barangs[0].stok += 20;
-		//barangs[0].stok -= 30;//Bisa juga dikurangi dong?
-		//barangs[0].stok *= 30;//dikali juga bisa dong??
 		barangs[0].addStock(10);
-		//this.addStock(barangs[0].getStok(), 100);
-		
 		showBarang();
 	}
 	public static void main(String[] args) {
